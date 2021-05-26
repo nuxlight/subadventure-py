@@ -149,3 +149,5 @@ Thumbs.db
 
 # profiling data
 .prof
+
+.vscode/settings.json
