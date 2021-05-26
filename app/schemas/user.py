@@ -1,9 +1,10 @@
 from pydantic import BaseModel
+from typing import Optional
 
 
 class UserBase(BaseModel):
     name: str
-    token: str
+    token: Optional[str]
 
 
 class UserCreate(UserBase):
