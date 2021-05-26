@@ -18,8 +18,8 @@ def get_db():
         db.close()
 
 
-@router.put("/sample")
-async def getSample(
+@router.put("/")
+async def create_user(
     user_in: UserCreate,
     db: Session = Depends(get_db)
 ) -> Any:
